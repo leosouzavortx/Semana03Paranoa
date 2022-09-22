@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EscolaParanoa.Modelos</name>
+    </assembly>
+    <members>
+        <member name="T:EscolaParanoa.Modelos.Alunos.Estudante">
+            <summary>
+            Define um Estudante na Escola Paranoa.
+            </summary>
+        </member>
+        <member name="M:EscolaParanoa.Modelos.Alunos.Estudante.#ctor(System.String,System.Int32)">
+            <summary>
+             Cria uma instância de Estudante com os argumentos utilizados.
+            </summary>
+            <param name="nome">Representa o valor da propriedade <see cref="P:EscolaParanoa.Modelos.Alunos.Estudante.Nome"/>.</param>
+            <param name="idade">Representa o valor da propriedade <see cref="P:EscolaParanoa.Modelos.Alunos.Estudante.Idade"/> e deve possuir um valor maior que zero.</param>
+            <exception cref="T:System.ArgumentException">Exceção lançada quando um valor negativo é utilizado no argumento <paramref name="idade"/>.</exception>
+        </member>
+        <member name="T:EscolaParanoa.Modelos.Alunos.EstudantePrimario">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EscolaParanoa.Modelos.Alunos.EstudantePrimario.#ctor(System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="nome"></param>
+            <param name="idade"></param>
+        </member>
+    </members>
+</doc>
